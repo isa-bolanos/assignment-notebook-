@@ -11,6 +11,8 @@
 		4A9A9EA82A09638A005C75AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A9EA72A09638A005C75AE /* ContentView.swift */; };
 		4A9A9EAA2A096392005C75AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A9A9EA92A096391005C75AE /* Assets.xcassets */; };
 		4A9A9EAD2A096392005C75AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A9A9EAC2A096392005C75AE /* Preview Assets.xcassets */; };
+		4A9A9EB42A0970A7005C75AE /* AssignmentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A9EB32A0970A7005C75AE /* AssignmentList.swift */; };
+		4A9A9EB62A097567005C75AE /* AddAssignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A9EB52A097567005C75AE /* AddAssignmentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		4A9A9EA72A09638A005C75AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4A9A9EA92A096391005C75AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A9A9EAC2A096392005C75AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4A9A9EB32A0970A7005C75AE /* AssignmentList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentList.swift; sourceTree = "<group>"; };
+		4A9A9EB52A097567005C75AE /* AddAssignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAssignmentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				4A9A9EA52A09638A005C75AE /* assignment_notebook__App.swift */,
+				4A9A9EB32A0970A7005C75AE /* AssignmentList.swift */,
 				4A9A9EA72A09638A005C75AE /* ContentView.swift */,
+				4A9A9EB52A097567005C75AE /* AddAssignmentView.swift */,
 				4A9A9EA92A096391005C75AE /* Assets.xcassets */,
 				4A9A9EAB2A096392005C75AE /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A9A9EB42A0970A7005C75AE /* AssignmentList.swift in Sources */,
 				4A9A9EA82A09638A005C75AE /* ContentView.swift in Sources */,
 				4A9A9EA62A09638A005C75AE /* assignment_notebook__App.swift in Sources */,
+				4A9A9EB62A097567005C75AE /* AddAssignmentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +288,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-20.bhs.IB.assignment-notebook--";
+				PRODUCT_BUNDLE_IDENTIFIER = "-20.bhs.IB.-Za-Hunter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -309,7 +317,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-20.bhs.IB.assignment-notebook--";
+				PRODUCT_BUNDLE_IDENTIFIER = "-20.bhs.IB.-Za-Hunter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
