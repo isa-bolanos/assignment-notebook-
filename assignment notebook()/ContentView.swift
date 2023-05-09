@@ -21,10 +21,10 @@ struct ContentView: View {
                                 .font(.headline)
                             Text(item.description)
                             
-                       }
+                        }
                         Spacer()
                         Text(item.dueDate, style: .date)
-                            
+                        
                     }
                 }
                 .onMove { indices, newOffset in assignmentList.items.move(fromOffsets: indices, toOffset: newOffset)
@@ -41,9 +41,9 @@ struct ContentView: View {
             .navigationBarItems(leading: EditButton(), trailing: Button(action: {
                 showingAddAssignmentView = true}) {
                     Image(systemName: "plus")
-            })
+                })
         }
-
+        
     }
 }
 
